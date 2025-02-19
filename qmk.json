@@ -1,6 +1,6 @@
 {
     "userspace_version": "1.1",
     "build_targets": [
-        ["splitkb/aurora/lily58", "mah-luke"]
+        ["splitkb/aurora/lily58/rev1", "lily58"]
     ]
 }
