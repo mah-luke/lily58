@@ -4,3 +4,6 @@
 // power LED for caps lock
 #define LED_CAPS_LOCK_PIN 24
 #define LED_PIN_ON_STATE 0
+
+// fix encoder skipping every 2nd tick
+#define ENCODER_RESOLUTION 2
