@@ -7,3 +7,6 @@
 
 // fix encoder skipping every 2nd tick
 #define ENCODER_RESOLUTION 2
+
+// encoder keymap per layer
+#define ENCODER_MAP_ENABLE = yes
