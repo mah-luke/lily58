@@ -2,8 +2,8 @@
 My keymap is based on the [default layout](https://github.com/qmk/qmk_firmware/tree/master/keyboards/splitkb/aurora/lily58) by [splitkb](https://splitkb.com/).
 
 ## Features
-- 3 Layers with an option to upgrade to 5 layers.
-- RALT umlaute emulation on Layer 2.
+- 4 Layers with an option to upgrade to 6 layers.
+- RALT umlaut emulation on Layer 2 for ä,ü,ö,ß,€.
 - Numpad for left hand on Layer 3.
 - 2 encoders used for:
     - Layer 0: Mouse wheel and Volume
@@ -21,7 +21,7 @@ My keymap is based on the [default layout](https://github.com/qmk/qmk_firmware/t
 ![Layer 3](./layers/3.png)
 
 ## Build
-Setup qmk, then compile and flash using
+Setup qmk, then compile and flash using:
 ```bash
 make flash
 ```
@@ -34,6 +34,6 @@ qmk to flash it.
 sleep 5 && make mount
 ```
 > [!NOTE]
-> The sleep allows you to quickly double tap the reset button on your
+> The sleep gives you time to quickly double tap the reset button on your
 > controller, allowing you to flash the keyboard without having to
 > fall back to another keyboard to execute the mount command.
