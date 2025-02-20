@@ -9,4 +9,6 @@
 #define ENCODER_RESOLUTION 2
 
 // encoder keymap per layer
-#define ENCODER_MAP_ENABLE = yes
+#define ENCODER_MAP_ENABLE yes
+
+#define MOUSEKEY_MOVE_DELTA 16
