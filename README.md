@@ -10,15 +10,24 @@ My keymap is based on the [default layout](https://github.com/qmk/qmk_firmware/t
     - Layer 1: Mouse emulation (up/down, left/right)
     - Layer 2: Page up/down
     - Layer 3: RGB lighting (hue, saturation)
+    - Layer 4: Mouse wheel and Volume
 
 ## Layers
-![Layer 0](./layers/0_BASE.png)
 
-![Layer 1](./layers/1.png)
+### BASE
+![BASE](./layers/0_BASE.png)
 
-![Layer 2](./layers/2.png)
+### Function 1: Special Characters
+![F1](./layers/1_F1.png)
 
-![Layer 3](./layers/3.png)
+### Function 2: Navigation, German characters
+![F2](./layers/2_F2.png)
+
+### NUM: RGB, NUMpad
+![NUM](./layers/3_NUM.png)
+
+### Gaming: WASD shifted once to the right side
+![Gaming](./layers/4_GAMING.png)
 
 ## Build
 Setup qmk, then compile and flash using:
@@ -31,7 +40,7 @@ for the drive of the microcontroller to flash the firmware to,
 execute following command which will mount `/dev/sdd1` and allows
 qmk to flash it.
 ```bash
-sleep 5 && make mount
+sleep 8 && make mount
 ```
 > [!NOTE]
 > The sleep gives you time to quickly double tap the reset button on your
