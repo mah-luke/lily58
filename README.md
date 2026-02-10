@@ -5,6 +5,7 @@ My keymap is based on the [default layout](https://github.com/qmk/qmk_firmware/t
 - 4 Layers with an option to upgrade to 6 layers.
 - RALT umlaut emulation on Layer 2 for ä,ü,ö,ß,€.
 - Numpad for left hand on Layer 3.
+- Support for 2 SSD1306 displays in long format
 - 2 encoders used for:
     - Layer 0: Mouse wheel and Volume
     - Layer 1: Mouse emulation (up/down, left/right)

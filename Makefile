@@ -26,5 +26,5 @@ $(KEYMAP)/keymap.c:
 	qmk json2c lily58.json > $@
 
 $(HEX): $(KEYMAP)/keymap.c
-	qmk userspace-compile
+	qmk compile
 
