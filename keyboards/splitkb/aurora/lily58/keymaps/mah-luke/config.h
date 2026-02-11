@@ -12,3 +12,6 @@
 #define ENCODER_MAP_ENABLE yes
 
 #define MOUSEKEY_MOVE_DELTA 16
+
+// can lower performance
+#define SPLIT_LAYER_STATE_ENABLE

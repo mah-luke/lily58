@@ -340,9 +340,9 @@ bool oled_task_user(void) {
         return false;
     }
 
-    // render_layer();
-    // return false;
-    return true;
+    render_layer();
+    return false;
+    // return true;
 }
 
 // bool oled_task_user(void) {
